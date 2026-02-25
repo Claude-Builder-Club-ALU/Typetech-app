@@ -56,7 +56,7 @@ export default function DashboardPage() {
   const homerow = students?.filter(s => s.typing_style === 'Homerow').length || 0
 
   const statusData = [
-    { name: 'Complete', value: complete, color: '#22c55e' },
+    { name: 'Complete', value: complete, color: '#22c55e' }, // branch commit testing
     { name: 'Pass', value: pass, color: '#eab308' },
     { name: 'Fail', value: fail, color: '#ef4444' },
     { name: 'Pending', value: pending, color: '#6b7280' },
